@@ -1,0 +1,67 @@
+@import url('/style/template.css');
+
+section {
+    flex-flow: column nowrap;
+    position: relative;
+}
+
+section, aside {
+    margin-top: 0;
+}
+
+h3 {
+    margin-left: 2%;
+}
+
+.btn {
+    padding-bottom: 2%;
+}
+
+article {
+    width: 98%;
+}
+
+section > .btn {
+    margin-top: 0;
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    height: 3vw;
+}
+
+section > .btn_main {
+    margin-top: 0;
+    position: absolute;
+    right: -18%;
+    top: 1%;
+    height: 3vw;
+}
+
+.read {
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+span {
+    margin-left: 2vw;
+}
+
+section > .btn:hover {
+    box-shadow: 0 0 3vw rgb(5, 117, 52);
+}
+
+section > .btn_main:hover {
+    box-shadow: 0 0 3vw rgb(9, 20, 182);
+}
+
+
+#btn > .read:first-child:hover {
+    box-shadow: 0 0 3vw rgb(224, 10, 28);
+}
+
+span > .read:hover {
+    box-shadow: 0 0 3vw rgb(204, 136, 10);
+}
+
+
+

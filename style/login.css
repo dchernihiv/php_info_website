@@ -1,0 +1,33 @@
+@import url('/style/template.css');
+
+.content {
+    height: 100vh;
+}
+
+section {
+    margin: 0;
+    padding-left: 2%;
+    flex-flow: column nowrap;
+    position: relative;
+}
+
+aside {
+    margin: 0;
+}
+
+section > .btn {
+    position: absolute;
+    margin-top: 2%;
+    right: 2%;
+}
+
+section > .btn_reset {
+   
+    position: absolute;
+    margin-top: 7%;
+    right: 2%;
+}
+
+section > .btn_reset:hover {
+    box-shadow: 0 0 3vw red;
+}

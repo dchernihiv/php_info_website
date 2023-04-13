@@ -1,0 +1,41 @@
+@import url('/style/template.css');
+
+.content {
+    height: 100vh;
+}
+
+section, aside {
+    margin-top: 0;
+}
+
+article {
+    width: 100%;
+    padding: 0 2% 2% 2%;
+    background-color: rgba(10, 10, 10, 0); 
+    text-align: justify;
+}
+
+article p {
+    text-indent: 10px;
+}
+
+article > p:first-line {
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.read {
+    width: 10vw;
+    height: 6vh;
+    margin: 2% 2%;
+}
+
+aside > div {
+    margin: 2% auto;
+}
+
+footer {
+    margin-top: 2%;
+}
+

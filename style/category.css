@@ -1,0 +1,25 @@
+@import url('/style/template.css');
+
+section, aside {
+    margin-top: 0;
+}
+
+article {
+    width: 100%;
+    padding: 2%;
+    text-align: justify;
+}
+
+article p {
+    text-indent: 10px;
+}
+
+article > p:first-line {
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+aside > div {
+    margin: 2% auto;
+}
